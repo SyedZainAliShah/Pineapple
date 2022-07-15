@@ -1,0 +1,38 @@
+import React from "react";
+import { Link } from "react-router-dom";
+import ShowImage from './ShowImage'
+import './random'
+
+const Card = ({ product }) => {
+    return (
+        
+
+<section class="product">
+	<div class="product__photo">
+		<div class="photo-container">
+			<div class="photo-main">
+				<div class="controls">
+					<i class="material-icons">share</i>
+					<i class="material-icons">favorite_border</i>
+				</div>
+                    <ShowImage item={product} url="product" />
+                </div>
+		</div>
+	</div>
+	<div class="product__info">
+		<div class="title">
+			<h1>{product.name}</h1>
+		</div>
+		<div class="price">
+			R$ <span>${product.price}</span>
+		<div class="description">
+			<h3>Description</h3>
+                    <p>{product.description}</p>
+		</div>
+		<button class="buy--btn">ADD TO CART</button>
+	</div>
+    );
+    </section>
+};
+
+export default Card;
