@@ -1,7 +1,7 @@
 # Pineapple
- Men's Clothing Website
+Men's Clothing Website
 
-
+A modern men's clothing website built using the MERN stack, designed to offer a seamless shopping experience. Features include product browsing, user authentication (signup/login), a secure payment gateway, add-to-cart functionality, and a responsive design.
 
 Videos going through the project and explaining its usage
 
